@@ -1,0 +1,67 @@
+body {
+  background-color: #edfddc;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 55px;
+  font-family: "Protest Riot", sans-serif;
+  line-height: 1.5;
+}
+
+form {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 17px;
+  display: flex;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  margin-bottom: 30px;
+}
+
+footer {
+  font-size: 13px;
+  font-family: "Protest Riot", sans-serif;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 17px;
+  margin-top: 30px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+
+.project {
+  text-align: center;
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+.user-input {
+  padding: 15px;
+  border: 1px solid #000;
+  width: 70%;
+  font-size: 15px;
+  font-family: "Protest Riot", sans-serif;
+  border-radius: 17px;
+  line-height: 20px;
+}
+
+.submit-button {
+  margin-left: 15px;
+  padding: 15px;
+  width: 25%;
+  border-radius: 17px;
+  font-size: 20px;
+  font-family: "Protest Riot", sans-serif;
+}
+
+.book-suggestion {
+  font-size: 20px;
+  font-family: "Protest Riot", sans-serif;
+  background-color: #fff;
+  border-radius: 17px;
+  padding: 15px;
+  line-height: 1.5;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
