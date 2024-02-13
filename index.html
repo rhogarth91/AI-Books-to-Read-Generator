@@ -24,19 +24,22 @@
         <form id="book-suggestion-form">
           <input
             type="text"
-            placeholder="Enter 3 words to generate book suggestion for you"
+            placeholder="Enter a 3 key words to generate book suggestions for you"
             autofocus
             required
             autocomplete="off"
             class="user-input"
+            id="user-input"
           />
           <input type="submit" class="submit-button" />
           <br />
         </form>
-        <h2>eg. funny, adventure, space</h2>
+        <h2>eg. funny, sci-fi, romance</h2>
       </main>
 
-      <div class="book-suggestion">Book suggestion to appear here</div>
+      <div class="book-suggestion" id="book-suggestion">
+        Book suggestions await!
+      </div>
 
       <footer>
         <p>
