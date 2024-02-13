@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>AI Book Suggestion Page</title>
   </head>
   <body>
@@ -19,17 +21,19 @@
       </header>
 
       <main>
-        <form>
+        <form id="book-suggestion-form">
           <input
             type="text"
-            placeholder="Enter the topic of the books you like suggestions for"
+            placeholder="Enter 3 words to generate book suggestion for you"
             autofocus
             required
             autocomplete="off"
             class="user-input"
           />
           <input type="submit" class="submit-button" />
+          <br />
         </form>
+        <h2>eg. funny, adventure, space</h2>
       </main>
 
       <div class="book-suggestion">Book suggestion to appear here</div>
